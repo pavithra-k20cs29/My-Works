@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+#navi{
+    position:sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: .5rem 5rem;
+    box-shadow: 5px 5px 20px black;
+    background-color: black;
+}
+
+.nank{
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(14, 146, 12);
+}
+
+#navbarNav a{
+    border-bottom: 2px solid transparent;
+}
+#navbarNav a:hover{
+    border-bottom: 2px solid rgb(14, 146, 12);
+}
+
+#navbarNav button{
+    background-color: rgb(14, 146, 12);
+    border-radius: 15px;
+}
+#navbarNav button:hover{
+    background-color: white;
+}
+
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* home */
+#home{
+    background-image: url(https://images.pexels.com/photos/1572036/pexels-photo-1572036.jpeg?cs=srgb&dl=pexels-sameera-madusanka-1572036.jpg&fm=jpg);
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+}
+#home h1{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    text-shadow: 5px 5px 6px green;
+}
+.nick{
+    font-size: larger;
+}
+.mick{
+    background-color: green;
+}
+.pak{
+    color: darkgreen;
+}
+.tik{
+    color: lightcoral;
+}
+#about{
+    background-color: lightgreen;
+}
+
+/* product */
+#product{
+    background-color: olivedrab;
+}
+.card{
+    box-shadow: 15px 20px 25px black;
+    justify-content: center;
+    margin: 20px 50px;
+}
+.card:hover{
+    box-shadow:  10px 10px 10px rgb(168, 222, 168)
+}
+
+/* contact */
+.mu1,.mu2{
+    margin: 10px;
+}
+.trr{
+    color: green;
+}
+.kiku{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
